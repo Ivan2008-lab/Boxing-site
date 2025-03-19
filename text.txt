@@ -1,0 +1,49 @@
+Ivan Strelyanyy, [Mar 19, 2025 at 09:40]
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бокс - Головна</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо у світ боксу</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="history.html">Історія боксу</a></li>
+                <li><a href="boxers.html">Відомі боксери</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Рядок, що біжить -->
+        <marquee>Бокс: спорт для сильних духом і тілом!</marquee>
+
+        <!-- Вступний розділ -->
+        <section>
+            <h2>Що таке бокс?</h2>
+            <p>Бокс — це бойове мистецтво, яке поєднує фізичну міць, техніку та витривалість. Це один із найпопулярніших видів спорту у світі.</p>
+            <hr> <!-- Горизонтальна лінія -->
+            <img src="boxing.jpg" alt="Бокс" style="width: 100%; max-width: 600px;"> <!-- Растрове зображення -->
+        </section>
+
+        <!-- Відео -->
+        <section>
+            <h2>Дивіться відео про бокс</h2>
+            <video controls style="width: 100%; max-width: 600px;">
+                <source src="boxing_video.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Світ боксу</p>
+    </footer>
+</body>
+</html>
